@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Vis from "./components/Vis.vue";
+import Vis from "./components/VisGraphic.vue";
 
 export default {
   name: "app",
@@ -23,5 +23,12 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width:100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  overflow: hidden;
 }
 </style>
